@@ -1,2 +1,2 @@
 export {buyCake} from './cake/cakeActions'
-export {buy_iceCream} from './iceCream/iceCreamActions'
+export {buyIceCream} from './iceCream/iceCreamActions'

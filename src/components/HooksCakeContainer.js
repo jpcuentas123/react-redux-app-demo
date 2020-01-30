@@ -4,11 +4,11 @@ import { buyCake } from '../redux';
 
 
 export default function HooksCakeContainer() {
-    const numOfCakes = useSelector(state => state.numOfCakes)
+    const numOfCakes = useSelector(state => state.cake.numOfCakes)
     const dispatch = useDispatch();
 
     const buyCakeDispatch = () => {
-        if (numOfCakes > 0) {
+        if (numOfCakes > 0) { 
             dispatch(buyCake())
         }
     }
